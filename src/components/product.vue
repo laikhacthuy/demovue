@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <boxHeaders></boxHeaders>
+    <v-container>
+      <h1>product</h1>
+    </v-container>
+    <boxFooters></boxFooters>
+  </div>
+</template>
+<script>
+import boxHeaders from './layout/boxHeader'
+import boxFooters from './layout/boxFooter'
+export default {
+  name: 'product',
+  components: {
+    boxHeaders,
+    boxFooters
+  }
+}
+</script>
+<style scoped>
+</style>
